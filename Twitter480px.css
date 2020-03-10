@@ -1,0 +1,232 @@
+@media screen and (max-width: 720px) {
+	html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: column; wrap;  
+    height: 600px; 
+}
+
+.left {
+    flex: 50%;
+    height: 50%;
+    order: 2;
+    justify-content: center;
+    align-items: center;
+    background-color: #71c9f8;
+    background-image: url("twitter46.png");
+    background-repeat: no-repeat;
+    background-position-y: -7	0px;
+    background-position-x: 40px;
+    background-size: 120%;
+    padding: 15px;
+}
+
+.content {
+    color: white;
+    text-align: left;
+    justify-content: center;
+    margin: 0px;
+    line-height: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.right {
+    flex: 50%;
+    height: 100%;
+    order: 1;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+   
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin: 0px 30px 10px 30px;
+}
+
+.Ids {
+    background-color: rgb(243, 243, 243);
+    justify-content: start;
+    color: rgb(94, 94, 94);
+    width: 200px;
+    height: 45px;
+    border: 2px solid rgb(243, 243, 243);
+    border-bottom-color: #1DA2F2;
+    margin: 20px 10px 10px 0px;
+}
+
+.Ids > p {
+    align-self: flex-start;
+    color: #1DA2F2;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1px;
+    margin: 10px 0 1px 3px;
+}
+
+#forgot_text {
+    font-size: 12px;
+}
+
+
+#input {
+    border: none;
+    margin: 0px 0px 0px 10px;
+    height: 15px;
+    background-color: inherit;
+}
+
+form {
+    align-items: center;
+}
+
+#button {
+    color: #1DA2F2;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid #1DA2F2;
+    width: 65px;
+    font-size: 13px;
+    height: 35px;
+    margin: 30px 5px 5px 5px;
+    padding: 10px;
+}
+
+.container2 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 15px
+}
+
+#twitter_img {
+    
+    align-self: start;
+    margin: 0px;
+    height: 50px;
+    width: 50px;
+}
+
+#twitter_quote {
+    align-self: start;
+    font-size: 30px;
+    margin: 5px 0px 50px 0px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#JoinText {
+    font-size: 15px;
+    align-self: start;
+    color: black;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#SignUpButton {
+    color: white;
+    align-self: start;
+    font-weight: bold;
+    background-color: #1DA2F2;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 20px;
+    border: 1px solid #1DA2F2;
+    margin: 5px 0px 5px 0px;
+    width: 100%;
+    height: 35px;
+    padding: 10px;
+}
+
+#LoginButton2 {
+    color: #1DA2F2;
+    align-self: start;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #1DA2F2;
+    margin: 5px 0px 5px 0px;
+    width: 100%;
+    height: 35px;
+    padding: 10px;
+}
+
+footer {
+    background-color: white;
+    align-self: baseline;
+}
+
+nav {
+    padding: 10px 15px;
+    text-align: center; 
+}
+
+a {
+    color: gray;
+    margin: 0px 5px;
+    padding: 0px 5px 0px 0px;
+    font-size: 13px;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a:hover, #forgot_text:hover {
+    text-decoration: underline;
+}
+
+#button:hover, #LoginButton2:hover, #LoginButton3:hover {
+    background-color: rgba(29, 160, 242, 0.11);
+}
+
+#SignUpButton:hover, #SignUpButton3:hover {
+    background-color: rgb(12, 141, 221);
+}
+
+#RemoveTag {
+display:none;
+}
+
+.loginSign {
+	display: flex;
+	flex-flow: row;
+}
+
+#SignUpButton3 {
+    color: white;
+    font-weight: bold;
+    background-color: #1DA2F2;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 20px;
+    border: 1px solid #1DA2F2;
+    width: 100%;
+    height: 35px;
+    padding: 10px;
+    margin: 20px 10px;
+}
+
+#LoginButton3 {
+    color: #1DA2F2;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #1DA2F2;
+    width: 100%;
+    height: 35px;
+    padding: 10px;
+    margin: 20px 10px;
+}
+
+
+}
